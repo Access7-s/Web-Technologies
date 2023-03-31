@@ -1,0 +1,37 @@
+*{
+    font-size: 50px;
+}
+h1{
+    background-color: gold;
+    color: black;
+    font-size: xx-large;
+    font-family: 'Dancing Script', cursive;}
+
+.P1{
+    background-color: darkblue;
+    color: black;
+    font-style: oblique;
+    font-size: 20px;
+
+}
+.p2{
+background-color:ghostwhite;
+color:rgb(23, 90, 33);
+font-style: oblique;
+}
+.p3{
+    background-color: khaki;
+    color: rgb(0, 0, 0);
+    font-style: oblique;
+}
+.p3:hover{
+    background-color: wheat;
+    color: orange;
+}
+img{
+    height: 500px;
+    width: 400px;
+}
+img[alt]{
+    color: blueviolet;
+}
