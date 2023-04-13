@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 6</title>
+    <style>
+        h1{
+            background-color: darkblue;
+            color:black ;
+            text-transform: uppercase;
+
+        }
+        h1:hover{
+            font-size:100px;
+            color: rgb(214, 225, 191);
+            transition:calc()
+        }
+        p{
+            background-color: aqua;
+            color:rgb(17, 0, 255);
+        }
+        a{
+            color: red;
+        }
+        input:checked{
+            outline: 1px solid rgb(0, 0, 0);
+        }
+        input:checked::after{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Interests</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet accusantium tempora pariatur
+         ratione voluptate, ea qui cupiditate vitae reprehenderit,
+          <br>mollitia earum aliquid obcaecati ad placeat nemo expedita rem quaerat. Earum!</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, repudiandae.   </p>
+    <a href="position.html" >Postitonal</a>
+    <form>
+        <p>CHoosr fav programming language</p>
+        <form>
+            <label><input name="origin" type="radio" value="Java" checked>Java</label>
+            
+            <label><input name="origin" type="radio" value="C++" checked>C++</label>
+           
+            <label><input name="origin" type="radio" value="Python" checked>Python</label>
+
+        </form>
+    </form>
+</body>
+</html>

@@ -1,0 +1,43 @@
+*{
+    color: white;
+    
+}
+*h1{
+    font-family: 'Dancing Script', cursive;
+}
+.headblack{
+    color:black ;
+    
+}
+.parent{
+    width: 1350px;
+    height: 700px;
+} 
+.parent1{
+    background-color: rgb(21, 44, 21);
+}
+.parent2{
+    background-color: rgb(153, 183, 153);
+}
+.parent3{
+    background-color:rgba(255, 204, 0, 0.881);
+}
+.parent4{
+    background-color: rgb(153, 183, 153);
+}
+.parent5{
+    background-color: rgb(21, 44, 21);
+}
+.img-1{
+    float: right;
+}
+.parent3{
+    display: inline;
+}
+
+.img-2{
+    display: block;
+}
+.parent1{
+    display:flex;
+}
