@@ -1,5 +1,7 @@
 *{
     color: white;
+    margin: 0;
+    padding: 0;
     
 }
 *h1{
@@ -12,15 +14,56 @@
 .parent{
     width: 1350px;
     height: 700px;
+    display: flex;
 } 
 .parent1{
     background-color: rgb(21, 44, 21);
+    color: white;
+}
+.right{
+    float: right;
+    margin: 0;
+    padding: 0;
+    object-position: right;
+    object-fit: fill;
+    width: 550px;
+    
+
+}
+.upperleft{
+    float: left;
+    padding: 80px;    
+}
+.lowerleft{
+    float: left;
+    margin: 80px;
+
+}
+.attached{
+    padding-top: 20px;
+}
+.Booknow{
+    background-color: rgb(209, 209, 20);
+    font-weight: 800;
+    width: 100%;
+    margin-top: 20px;
+    padding: 8px;
+    border-radius: 3px;
+}
+.img{
+    height: 100%;
+    width: 100%;
 }
 .parent2{
     background-color: rgb(153, 183, 153);
+
 }
 .parent3{
     background-color:rgba(255, 204, 0, 0.881);
+    flex-direction: row;
+}
+.img3_2{
+        width: fit-content;    
 }
 .parent4{
     background-color: rgb(153, 183, 153);
